@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9a03cfd-60d6-48b1-80f0-e3372f24544e" name="Default" comment="" />
+    <list default="true" id="d9a03cfd-60d6-48b1-80f0-e3372f24544e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Selenium Test/com/Selenium_for_intellij/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Selenium Test/com/Selenium_for_intellij/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Selenium_for_intellij/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Selenium_for_intellij/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,10 +19,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Selenium_for_intellij/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="136" selection-start-line="136" selection-end-line="136" />
+            <state relative-caret-position="210">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#6042#6043#0" expanded="true" />
+                <element signature="e#6071#6072#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,6 +40,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/com/Selenium_for_intellij/Main.java" root0="SKIP_INSPECTION" />
@@ -43,6 +53,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/htmlunitdriver/HtmlUnitDriver.java" />
+        <option value="$PROJECT_DIR$/src/com/Selenium_for_intellij/HomePage.java" />
         <option value="$PROJECT_DIR$/src/com/Selenium_for_intellij/Main.java" />
       </list>
     </option>
@@ -53,7 +64,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -66,7 +77,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,7 +105,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,6 +146,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -153,19 +165,20 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32838285" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32838285" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.330033" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" order="2" weight="0.57755774" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32838285" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17170954" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1762481" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -176,7 +189,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32838285" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -192,13 +204,40 @@
       <option name="time" value="2" />
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/Selenium_for_intellij/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Selenium_for_intellij/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2856">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+          <folding>
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Selenium_for_intellij/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2856">
           <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -208,7 +247,8 @@
         <state relative-caret-position="2772">
           <caret line="132" column="5" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -218,7 +258,8 @@
         <state relative-caret-position="2352">
           <caret line="112" column="54" lean-forward="true" selection-start-line="112" selection-start-column="54" selection-end-line="112" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -228,7 +269,8 @@
         <state relative-caret-position="1848">
           <caret line="88" selection-start-line="88" selection-end-line="88" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -238,7 +280,8 @@
         <state relative-caret-position="1848">
           <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -248,7 +291,8 @@
         <state relative-caret-position="630">
           <caret line="30" column="23" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -258,7 +302,8 @@
         <state relative-caret-position="966">
           <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -268,7 +313,8 @@
         <state relative-caret-position="1806">
           <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -278,7 +324,8 @@
         <state relative-caret-position="1512">
           <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -288,7 +335,8 @@
         <state relative-caret-position="629">
           <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -298,7 +346,8 @@
         <state relative-caret-position="629">
           <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -308,7 +357,8 @@
         <state relative-caret-position="799">
           <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -348,12 +398,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://E:/Softwares/Selenium/selenium-java-3.12.0/client-combined-3.12.0-sources.jar!/org/openqa/selenium/remote/ErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Selenium_for_intellij/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Selenium_for_intellij/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
           </folding>
         </state>
       </provider>

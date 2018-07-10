@@ -5,17 +5,19 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
 
     static WebDriver driver;
     static String browser;
-    static WebElement element;
+    static WebDriverWait wait;
 
     public static void main(String[] args) throws InterruptedException {
 
@@ -26,19 +28,16 @@ public class Main {
             }
             continue;
         }
+        getAllLinks();
         runTest();
+        navigateToCareer();
         navigateToContact();
         tearDown();
     }
 
-    // Set Browser
-    // Set Browser Config
-    // Run Test
-    // Navigate to Contact
-    // Tear Down
     public static void setBrowser() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Which brower do you want to use ? ");
+        System.out.println("Which browser do you want to use ? ");
         browser = sc.nextLine();
     }
 
@@ -54,9 +53,25 @@ public class Main {
                     "E:\\Workspace\\Selenium Test\\drivers\\MicrosoftWebDriver.exe");
             driver = new EdgeDriver();
             return true;
+        } else if (browser.equalsIgnoreCase("Firefox")) {
+            System.setProperty("webdriver.gecko.driver",
+                    "E:\\Workspace\\Selenium Test\\drivers\\geckodriver.exe");
+            driver = new FirefoxDriver();
+            return true;
         }
         System.out.println("You have entered an invalid browser name !");
         return false;
+    }
+
+    public static void getAllLinks() {
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.navigate().to("https://www.iquantile.com/");
+        List<WebElement> allLinks = driver.findElements(By.tagName("a"));
+        System.out.println("We have total " + allLinks.size() + " links in this website. The list is given below: ");
+        for (WebElement links : allLinks) {
+            System.out.println(links.getAttribute("href"));
+        }
+
     }
 
     public static void runTest() throws InterruptedException {
@@ -78,7 +93,7 @@ public class Main {
         /**
          * find search bar and search iquantile
          */
-        element = driver.findElement(By.name("q"));
+        WebElement element = driver.findElement(By.name("q"));
         element.sendKeys("iquantile");
         element.submit();
 
@@ -92,36 +107,39 @@ public class Main {
         /**
          * these are the links we like to visit
          */
-        System.out.println("Results are: ");
+        System.out.println("Total " + findElements.size() + " search results are: ");
         for (WebElement webElement : findElements) {
             System.out.println(webElement.getAttribute("href"));
-//            webElement.getAttribute("href");
+            //            webElement.getAttribute("href");
         }
 
         /**
          * navigate to the first result link
          */
         String first_link = findElements.get(0).getAttribute("href");
+        System.out.print("Entering to: " + first_link + "\n");
         driver.navigate().to(first_link);
-//        driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
         try {
             Thread.sleep(3000);
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
 
+
+    public static void navigateToCareer() {
         /**
          * go to career page
          */
         driver.navigate().to("https://www.iquantile.com/career");
-        System.out.println("Career Page URL: ");
+        System.out.print("Career Page URL: ");
         String careerUrl = driver.getCurrentUrl();
         System.out.println(careerUrl);
         boolean careerPageText = driver.getPageSource().contains("WORK WITH US");
         if (careerPageText = true) {
-            System.out.println("This is career page !");
+            System.out.println("Career page verified !");
         } else {
-            System.out.println("Somethis is wrong !");
+            System.out.println("Somethis went wrong !");
         }
     }
 
@@ -132,13 +150,14 @@ public class Main {
         driver.navigate().to("https://www.iquantile.com/index.php#contactz");
         WebDriverWait wait = new WebDriverWait(driver, 40);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("name")));
-        element = driver.findElement(By.className("disabled"));
+        WebElement element = driver.findElement(By.className("disabled"));
         element.submit();
 
         /**
          * Empty field error messages
          */
         List<WebElement> errorMessages = driver.findElements(By.className("list-unstyled"));
+        System.out.println("Mandatory field(s) error message: ");
         for (WebElement error : errorMessages) {
             System.out.println(error.getText());
         }
@@ -146,9 +165,11 @@ public class Main {
         /**
          * Submit button error message
          */
+        System.out.println("Submit button error message: ");
         WebElement buttonError = driver.findElement(By.id("c-form-submit"));
         System.out.println(buttonError.getText());
     }
+
 
     /**
      * quit the browser and clear the session
