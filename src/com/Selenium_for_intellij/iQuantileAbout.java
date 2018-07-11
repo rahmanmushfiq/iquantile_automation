@@ -18,7 +18,7 @@ public class iQuantileAbout {
         System.out.println("About Page URL: " + actualAboutUrl);
         driver.get(actualAboutUrl);
         if (actualAboutUrl.equals(expectedAboutsUrl)) {
-            System.out.println("Service Page is verified !");
+            System.out.println("About Page is verified !");
         } else {
             System.out.println("Something went wrong with About Page !");
         }

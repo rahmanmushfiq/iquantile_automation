@@ -10,6 +10,9 @@ import java.util.Scanner;
 public class Main {
     static WebDriver driver;
     static String browser;
+    static String chromeDriver = "E:\\Workspace\\Selenium Test\\drivers\\chromedriver.exe";
+    static String firefoxDriver = "E:\\Workspace\\Selenium Test\\drivers\\geckodriver.exe";
+    static String edgeDriver = "E:\\Workspace\\Selenium Test\\drivers\\MicrosoftWebDriver.exe";
 
     public static void main(String[] args) throws InterruptedException {
 
@@ -42,18 +45,15 @@ public class Main {
     public static boolean setBrowserConfig() {
 
         if (browser.equalsIgnoreCase("Chrome")) {
-            System.setProperty("webdriver.chrome.driver",
-                    "E:\\Workspace\\Selenium Test\\drivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", chromeDriver);
             driver = new ChromeDriver();
             return true;
         } else if (browser.equalsIgnoreCase("Edge")) {
-            System.setProperty("webdriver.edge.driver",
-                    "E:\\Workspace\\Selenium Test\\drivers\\MicrosoftWebDriver.exe");
+            System.setProperty("webdriver.edge.driver", edgeDriver);
             driver = new EdgeDriver();
             return true;
         } else if (browser.equalsIgnoreCase("Firefox")) {
-            System.setProperty("webdriver.gecko.driver",
-                    "E:\\Workspace\\Selenium Test\\drivers\\geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", firefoxDriver);
             driver = new FirefoxDriver();
             return true;
         }

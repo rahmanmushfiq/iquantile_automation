@@ -1,7 +1,6 @@
 Which browser do you want to use ? 
-Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 31805
-Only local connections are allowed.
-Jul 11, 2018 2:55:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[16:29:46.385] - Listening on http://localhost:44558/ 
+Jul 11, 2018 4:29:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 We have total 71 links in this website. The list is given below: 
 https://www.iquantile.com/home
@@ -76,34 +75,36 @@ https://www.linkedin.com/company/iquantile
 https://twitter.com/iquantile
 https://www.facebook.com/iQuantile/
 Title Matched! 
-Total 11 search results are: 
+Total 12 search results are: 
 https://www.iquantile.com/
 http://www.iquantile.com/products
+https://www.iquantile.com/terms
 https://www.iquantile.com/career
+https://www.iquantile.com/page.php?id=105
 https://www.linkedin.com/company/iquantile
 https://www.facebook.com/pages/Iquantile/930864110336875
 https://www.facebook.com/iQuantile/
 https://www.crunchbase.com/organization/iquantile
-https://twitter.com/iquantile?lang=bn
 https://play.google.com/store/apps/dev?id=8413473485094717501
+https://twitter.com/iquantile?lang=bn
 https://ideas.repec.org/c/boc/bocode/s456992.html
-https://www.stata.com/statalist/archive/2009-01/msg00728.html
 Entering to: https://www.iquantile.com/
 Home Page URL: https://www.iquantile.com/home
 Home Page is verified !
 Services Page URL: https://www.iquantile.com/index.php#servicez
 Service Page is verified !
-Services Page URL: https://www.iquantile.com/index.php#portfolioz
-Service Page is verified !
+Portfolio Page URL: https://www.iquantile.com/index.php#portfolioz
+Portfolio Page is verified !
 About Page URL: https://www.iquantile.com/index.php#aboutz
-Service Page is verified !
+About Page is verified !
 Contact Page URL: https://www.iquantile.com/index.php#contactz
 Contact Page is verified !
 Mandatory field(s) error message: 
-PLEASE FILL OUT THIS FIELD.
-PLEASE FILL OUT THIS FIELD.
-PLEASE FILL OUT THIS FIELD.
+This is a required field
+This is a required field
+This is a required field
 Submit button error message: 
-ONE/MANY FIELD(S) ARE EMPTY OR INVALID!
+One/Many field(s) are empty or invalid!
 Career Page URL: https://www.iquantile.com/career
 Career page verified !
+[16:30:11.353] - Stopping server.

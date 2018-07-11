@@ -24,7 +24,7 @@ public class SearchIquantile {
         driver.manage().window().maximize();
         String actualTitle = driver.getTitle();
         String expectedTitle = "Google";
-        if (actualTitle.equalsIgnoreCase(expectedTitle)) {
+        if (actualTitle.equals(expectedTitle)) {
             System.out.println("Title Matched! ");
 
         } else {

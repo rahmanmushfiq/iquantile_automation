@@ -15,10 +15,10 @@ public class iQuantilePortfolio {
         String expectedPortfoliosUrl = "https://www.iquantile.com/index.php#portfolioz";
         WebElement element = driver.findElement(By.linkText("WHAT WE BUILT"));
         String actualPortfolioUrl = element.getAttribute("href");
-        System.out.println("Services Page URL: " + actualPortfolioUrl);
+        System.out.println("Portfolio Page URL: " + actualPortfolioUrl);
         driver.get(actualPortfolioUrl);
         if (actualPortfolioUrl.equals(expectedPortfoliosUrl)) {
-            System.out.println("Service Page is verified !");
+            System.out.println("Portfolio Page is verified !");
         } else {
             System.out.println("Something went wrong with Portfolio Page !");
         }
