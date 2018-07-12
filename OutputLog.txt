@@ -1,80 +1,89 @@
 Which browser do you want to use ? 
-[16:29:46.385] - Listening on http://localhost:44558/ 
-Jul 11, 2018 4:29:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-We have total 71 links in this website. The list is given below: 
-https://www.iquantile.com/home
-https://www.iquantile.com/index.php#servicez
-https://www.iquantile.com/index.php#portfolioz
-https://www.iquantile.com/index.php#aboutz
-https://www.iquantile.com/career
-https://www.iquantile.com/index.php#contactz
-https://www.iquantile.com/#0
-http://demo.authentichost.net/noshery/v1.2/
-http://demo.authentichost.net/qodex/v1.0/
-http://demo.authentichost.net/qrut/v1.0/
-http://demo.authentichost.net/piqly/web/
-http://demo.quantibly.com/
-http://demo.authentichost.net/qtab/web/
-http://demo.authentichost.net/noshery/v1.2/
-http://demo.authentichost.net/qodex/v1.0/
-http://demo.authentichost.net/qrut/v1.0/
-http://demo.authentichost.net/piqly/web/
-http://demo.quantibly.com/
-http://demo.authentichost.net/qtab/web/
-http://demo.authentichost.net/noshery/v1.2/
-http://demo.authentichost.net/qodex/v1.0/
-https://www.iquantile.com/career
-https://www.iquantile.com/page.php?id=105
-https://www.iquantile.com/page.php?id=81
-https://www.iquantile.com/page.php?id=59
-https://www.iquantile.com/page.php?id=4
-https://www.iquantile.com/page.php?id=108
-https://www.iquantile.com/page.php?id=89
-https://www.iquantile.com/page.php?id=37
-https://www.iquantile.com/page.php?id=80
-https://www.iquantile.com/page.php?id=42
-https://www.iquantile.com/page.php?id=100
-https://www.iquantile.com/page.php?id=33
-https://www.iquantile.com/page.php?id=54
-https://www.iquantile.com/page.php?id=94
-https://www.iquantile.com/page.php?id=79
-https://www.iquantile.com/page.php?id=71
-https://www.iquantile.com/page.php?id=103
-https://www.iquantile.com/page.php?id=12
-https://www.iquantile.com/page.php?id=16
-https://www.iquantile.com/page.php?id=112
-https://www.iquantile.com/page.php?id=104
-https://www.iquantile.com/page.php?id=102
-https://www.iquantile.com/page.php?id=101
-https://www.iquantile.com/page.php?id=74
-https://www.iquantile.com/page.php?id=110
-https://www.iquantile.com/page.php?id=30
-https://www.iquantile.com/page.php?id=93
-https://www.iquantile.com/page.php?id=95
-https://www.iquantile.com/page.php?id=78
-https://www.iquantile.com/page.php?id=14
-https://www.iquantile.com/page.php?id=83
-https://www.iquantile.com/page.php?id=40
-https://www.iquantile.com/page.php?id=106
-https://www.iquantile.com/page.php?id=85
-https://www.iquantile.com/page.php?id=107
-https://www.iquantile.com/page.php?id=97
-https://www.iquantile.com/page.php?id=111
-https://www.iquantile.com/page.php?id=68
-https://www.iquantile.com/page.php?id=92
-https://www.iquantile.com/page.php?id=98
-https://www.iquantile.com/page.php?id=13
-https://www.iquantile.com/page.php?id=75
-https://www.iquantile.com/page.php?id=77
-https://www.iquantile.com/page.php?id=109
-https://www.iquantile.com/privacy
-https://www.iquantile.com/terms
-mailto:support@iquantile.com
-https://www.linkedin.com/company/iquantile
-https://twitter.com/iquantile
-https://www.facebook.com/iQuantile/
-Title Matched! 
+1531381875505	geckodriver	INFO	geckodriver 0.21.0
+1531381875518	geckodriver	INFO	Listening on 127.0.0.1:22300
+1531381876278	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mfrah\\AppData\\Local\\Temp\\rust_mozprofile.xq4gcgsdcmFe"
+Unable to read VR Path Registry from C:\Users\mfrah\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mfrah\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mfrah\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mfrah\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mfrah\AppData\Local\openvr\openvrpaths.vrpath
+1531381880546	Marionette	INFO	Listening on port 52483
+1531381880653	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 12, 2018 1:51:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Total Links Found: 71
+URL: https://www.iquantile.com/home -> returned OK
+URL: https://www.iquantile.com/index.php#servicez -> returned OK
+URL: https://www.iquantile.com/index.php#portfolioz -> returned OK
+URL: https://www.iquantile.com/index.php#aboutz -> returned OK
+URL: https://www.iquantile.com/career -> returned OK
+URL: https://www.iquantile.com/index.php#contactz -> returned OK
+URL: https://www.iquantile.com/#0 -> returned OK
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+URL: https://www.iquantile.com/career -> returned OK
+URL: https://www.iquantile.com/page.php?id=105 -> returned OK
+URL: https://www.iquantile.com/page.php?id=81 -> returned OK
+URL: https://www.iquantile.com/page.php?id=59 -> returned OK
+URL: https://www.iquantile.com/page.php?id=4 -> returned OK
+URL: https://www.iquantile.com/page.php?id=108 -> returned OK
+URL: https://www.iquantile.com/page.php?id=89 -> returned OK
+URL: https://www.iquantile.com/page.php?id=37 -> returned OK
+URL: https://www.iquantile.com/page.php?id=80 -> returned OK
+URL: https://www.iquantile.com/page.php?id=42 -> returned OK
+URL: https://www.iquantile.com/page.php?id=100 -> returned OK
+URL: https://www.iquantile.com/page.php?id=33 -> returned OK
+URL: https://www.iquantile.com/page.php?id=54 -> returned OK
+URL: https://www.iquantile.com/page.php?id=94 -> returned OK
+URL: https://www.iquantile.com/page.php?id=79 -> returned OK
+URL: https://www.iquantile.com/page.php?id=71 -> returned OK
+URL: https://www.iquantile.com/page.php?id=103 -> returned OK
+URL: https://www.iquantile.com/page.php?id=12 -> returned OK
+URL: https://www.iquantile.com/page.php?id=16 -> returned OK
+URL: https://www.iquantile.com/page.php?id=112 -> returned OK
+URL: https://www.iquantile.com/page.php?id=104 -> returned OK
+URL: https://www.iquantile.com/page.php?id=102 -> returned OK
+URL: https://www.iquantile.com/page.php?id=101 -> returned OK
+URL: https://www.iquantile.com/page.php?id=74 -> returned OK
+URL: https://www.iquantile.com/page.php?id=110 -> returned OK
+URL: https://www.iquantile.com/page.php?id=30 -> returned OK
+URL: https://www.iquantile.com/page.php?id=93 -> returned OK
+URL: https://www.iquantile.com/page.php?id=95 -> returned OK
+URL: https://www.iquantile.com/page.php?id=78 -> returned OK
+URL: https://www.iquantile.com/page.php?id=14 -> returned OK
+URL: https://www.iquantile.com/page.php?id=83 -> returned OK
+URL: https://www.iquantile.com/page.php?id=40 -> returned OK
+URL: https://www.iquantile.com/page.php?id=106 -> returned OK
+URL: https://www.iquantile.com/page.php?id=85 -> returned OK
+URL: https://www.iquantile.com/page.php?id=107 -> returned OK
+URL: https://www.iquantile.com/page.php?id=97 -> returned OK
+URL: https://www.iquantile.com/page.php?id=111 -> returned OK
+URL: https://www.iquantile.com/page.php?id=68 -> returned OK
+URL: https://www.iquantile.com/page.php?id=92 -> returned OK
+URL: https://www.iquantile.com/page.php?id=98 -> returned OK
+URL: https://www.iquantile.com/page.php?id=13 -> returned OK
+URL: https://www.iquantile.com/page.php?id=75 -> returned OK
+URL: https://www.iquantile.com/page.php?id=77 -> returned OK
+URL: https://www.iquantile.com/page.php?id=109 -> returned OK
+URL: https://www.iquantile.com/privacy -> returned OK
+URL: https://www.iquantile.com/terms -> returned OK
+At <strong>support@iquantile.com</strong> Exception occured -&gt; sun.net.www.protocol.mailto.MailToURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+URL: https://www.linkedin.com/company/iquantile -> returned Request denied
+URL: https://twitter.com/iquantile -> returned OK
+URL: https://www.facebook.com/iQuantile/ -> returned OK
+Google Title Matched! 
 Total 12 search results are: 
 https://www.iquantile.com/
 http://www.iquantile.com/products
@@ -87,7 +96,7 @@ https://www.facebook.com/iQuantile/
 https://www.crunchbase.com/organization/iquantile
 https://play.google.com/store/apps/dev?id=8413473485094717501
 https://twitter.com/iquantile?lang=bn
-https://ideas.repec.org/c/boc/bocode/s456992.html
+https://www.google.com/search?q=iquantile&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjqgOGbipncAhVJfH0KHRxwC7oQsAQIXg
 Entering to: https://www.iquantile.com/
 Home Page URL: https://www.iquantile.com/home
 Home Page is verified !
@@ -100,11 +109,20 @@ About Page is verified !
 Contact Page URL: https://www.iquantile.com/index.php#contactz
 Contact Page is verified !
 Mandatory field(s) error message: 
-This is a required field
-This is a required field
-This is a required field
+PLEASE FILL OUT THIS FIELD.
+PLEASE FILL OUT THIS FIELD.
+PLEASE FILL OUT THIS FIELD.
 Submit button error message: 
-One/Many field(s) are empty or invalid!
+ONE/MANY FIELD(S) ARE EMPTY OR INVALID!
 Career Page URL: https://www.iquantile.com/career
 Career page verified !
-[16:30:11.353] - Stopping server.
+Closing .......
+[Parent 13444, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build[Parent 13444, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 11280, Chrome_ChildThread] 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

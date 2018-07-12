@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class iQuantileAbout {
-    private WebDriver driver;
+    private final WebDriver driver;
 
     public iQuantileAbout(WebDriver driver) {
         this.driver = driver;

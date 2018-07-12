@@ -10,7 +10,7 @@ import java.util.List;
 
 public class SearchIquantile {
 
-    private WebDriver driver;
+    private final WebDriver driver;
 
     public SearchIquantile(WebDriver driver) {
         this.driver = driver;
@@ -25,10 +25,10 @@ public class SearchIquantile {
         String actualTitle = driver.getTitle();
         String expectedTitle = "Google";
         if (actualTitle.equals(expectedTitle)) {
-            System.out.println("Title Matched! ");
+            System.out.println("Google Title Matched! ");
 
         } else {
-            System.out.println("Title didn't Match!");
+            System.out.println("Google Title didn't Match!");
         }
 
         /*

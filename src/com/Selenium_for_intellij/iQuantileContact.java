@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 
 public class iQuantileContact {
-    private WebDriver driver;
+    private final WebDriver driver;
 
     public iQuantileContact(WebDriver driver) {
         this.driver = driver;
@@ -38,9 +38,9 @@ public class iQuantileContact {
         /*
          * Empty field error messages
          */
-        List<WebElement> errorMessages = driver.findElements(By.className("list-unstyled"));
+        List<WebElement> fieldsErrorMessage = driver.findElements(By.className("list-unstyled"));
         System.out.println("Mandatory field(s) error message: ");
-        for (WebElement error : errorMessages) {
+        for (WebElement error : fieldsErrorMessage) {
             System.out.println(error.getText());
         }
 
@@ -48,7 +48,7 @@ public class iQuantileContact {
          * Submit button error message
          */
         System.out.println("Submit button error message: ");
-        WebElement buttonError = driver.findElement(By.id("c-form-submit"));
-        System.out.println(buttonError.getText());
+        WebElement submitButtonError = driver.findElement(By.id("c-form-submit"));
+        System.out.println(submitButtonError.getText());
     }
 }

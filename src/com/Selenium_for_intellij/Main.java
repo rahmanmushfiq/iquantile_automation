@@ -10,11 +10,11 @@ import java.util.Scanner;
 public class Main {
     static WebDriver driver;
     static String browser;
-    static String chromeDriver = "E:\\Workspace\\Selenium Test\\drivers\\chromedriver.exe";
-    static String firefoxDriver = "E:\\Workspace\\Selenium Test\\drivers\\geckodriver.exe";
-    static String edgeDriver = "E:\\Workspace\\Selenium Test\\drivers\\MicrosoftWebDriver.exe";
+    static final String chromeDriver = "E:\\Workspace\\Selenium Test\\drivers\\chromedriver.exe";
+    static final String firefoxDriver = "E:\\Workspace\\Selenium Test\\drivers\\geckodriver.exe";
+    static final String edgeDriver = "E:\\Workspace\\Selenium Test\\drivers\\MicrosoftWebDriver.exe";
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
         while (true) {
             setBrowser();
@@ -24,7 +24,9 @@ public class Main {
             continue;
         }
 
-        new AllLinks(driver).getAllLinks();
+        BrokenLinks brokenLinks = new BrokenLinks(driver);
+        brokenLinks.findAllLinks();
+        brokenLinks.checkLinks();
         new SearchIquantile(driver).navigateToGoogleAndSearchIquantile();
         new iQuantileHome(driver).navigateToHome();
         new iQuantileServices(driver).navigateToServices();
@@ -53,6 +55,7 @@ public class Main {
             driver = new EdgeDriver();
             return true;
         } else if (browser.equalsIgnoreCase("Firefox")) {
+
             System.setProperty("webdriver.gecko.driver", firefoxDriver);
             driver = new FirefoxDriver();
             return true;
@@ -65,6 +68,8 @@ public class Main {
      * quit the browser and clear the session
      */
     public static void tearDown() {
+
+        System.out.println("Closing .......");
         driver.quit();
     }
 }

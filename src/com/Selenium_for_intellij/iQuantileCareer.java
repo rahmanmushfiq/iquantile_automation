@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class iQuantileCareer {
 
-    private WebDriver driver;
+    private final WebDriver driver;
 
     public iQuantileCareer(WebDriver driver) {
         this.driver = driver;
