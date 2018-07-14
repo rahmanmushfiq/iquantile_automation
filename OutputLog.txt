@@ -1,17 +1,8 @@
 Which browser do you want to use ? 
-1531381875505	geckodriver	INFO	geckodriver 0.21.0
-1531381875518	geckodriver	INFO	Listening on 127.0.0.1:22300
-1531381876278	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mfrah\\AppData\\Local\\Temp\\rust_mozprofile.xq4gcgsdcmFe"
-Unable to read VR Path Registry from C:\Users\mfrah\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\mfrah\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\mfrah\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\mfrah\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\mfrah\AppData\Local\openvr\openvrpaths.vrpath
-1531381880546	Marionette	INFO	Listening on port 52483
-1531381880653	Marionette	WARN	TLS certificate errors will be ignored for this session
-Jul 12, 2018 1:51:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Total Links Found: 71
+[10:53:15.782] - Listening on http://localhost:6622/ 
+Jul 14, 2018 10:53:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Total Links Found: 131
 URL: https://www.iquantile.com/home -> returned OK
 URL: https://www.iquantile.com/index.php#servicez -> returned OK
 URL: https://www.iquantile.com/index.php#portfolioz -> returned OK
@@ -83,6 +74,66 @@ At <strong>support@iquantile.com</strong> Exception occured -&gt; sun.net.www.pr
 URL: https://www.linkedin.com/company/iquantile -> returned Request denied
 URL: https://twitter.com/iquantile -> returned OK
 URL: https://www.facebook.com/iQuantile/ -> returned OK
+URL: https://www.iquantile.com/img/logo.png -> returned OK
+URL: https://www.iquantile.com/images/banner-text.png -> returned OK
+URL: https://www.iquantile.com/img/iq_about.png -> returned OK
+URL: https://www.iquantile.com/img/portfolio/noshery.png -> returned OK
+URL: https://www.iquantile.com/img/portfolio/qodex.png -> returned OK
+URL: https://www.iquantile.com/img/portfolio/Qrut.png -> returned OK
+URL: https://www.iquantile.com/img/portfolio/piqly.png -> returned OK
+URL: https://www.iquantile.com/img/portfolio/quantibly2.png -> returned OK
+URL: https://www.iquantile.com/img/portfolio/qtab.png -> returned OK
+URL: https://www.iquantile.com/img/portfolio/noshery.png -> returned OK
+URL: https://www.iquantile.com/img/portfolio/qodex.png -> returned OK
+URL: https://www.iquantile.com/img/portfolio/Qrut.png -> returned OK
+URL: https://www.iquantile.com/img/portfolio/piqly.png -> returned OK
+URL: https://www.iquantile.com/img/portfolio/quantibly2.png -> returned OK
+URL: https://www.iquantile.com/img/portfolio/qtab.png -> returned OK
+URL: https://www.iquantile.com/img/portfolio/noshery.png -> returned OK
+URL: https://www.iquantile.com/img/portfolio/qodex.png -> returned OK
+URL: https://www.iquantile.com/img/team/2018050526202.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2017072312502.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/Alfonso.png -> returned OK
+URL: https://www.iquantile.com/img/team/azaman.png -> returned OK
+URL: https://www.iquantile.com/img/team/2018051429157.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2017101224850.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/ckazi.png -> returned OK
+URL: https://www.iquantile.com/img/team/2017072121894.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/eilonga.png -> returned OK
+URL: https://www.iquantile.com/img/team/2018030517632.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/lrosa.png -> returned OK
+URL: https://www.iquantile.com/img/team/2017101232021.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2017122228527.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2017071842871.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2017040926281.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2018032821472.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/mhahmed.png -> returned OK
+URL: https://www.iquantile.com/img/team/mcooke.png -> returned OK
+URL: https://www.iquantile.com/img/team/2018060123795.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2018050524982.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2018031620128.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2018030624111.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2017041723144.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2018051614097.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2018032069258.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2018060216158.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2018010110314.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2017071821276.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/rmukerji.png -> returned OK
+URL: https://www.iquantile.com/img/team/2017073124843.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2018032278434.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2018050833863.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2017080822646.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2018050828072.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2018010512095.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2018051616140.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2017022616667.png -> returned OK
+URL: https://www.iquantile.com/img/team/2017121220673.jpeg -> returned OK
+URL: https://www.iquantile.com/img/team/2018013124491.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/sforte.png -> returned OK
+URL: https://www.iquantile.com/img/team/2018032290109.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2017070629105.jpg -> returned OK
+URL: https://www.iquantile.com/img/team/2018051611540.jpg -> returned OK
 Google Title Matched! 
 Total 12 search results are: 
 https://www.iquantile.com/
@@ -91,12 +142,12 @@ https://www.iquantile.com/terms
 https://www.iquantile.com/career
 https://www.iquantile.com/page.php?id=105
 https://www.linkedin.com/company/iquantile
-https://www.facebook.com/pages/Iquantile/930864110336875
 https://www.facebook.com/iQuantile/
+https://www.facebook.com/pages/Iquantile/930864110336875
 https://www.crunchbase.com/organization/iquantile
-https://play.google.com/store/apps/dev?id=8413473485094717501
 https://twitter.com/iquantile?lang=bn
-https://www.google.com/search?q=iquantile&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjqgOGbipncAhVJfH0KHRxwC7oQsAQIXg
+https://www.google.com/search?q=iquantile&sa=G&tbm=isch&tbo=u&source=univ&ved=0ahUKEwiog_aO5p3cAhVNXSsKHTuaAn0QsAQIVQ
+https://play.google.com/store/apps/dev?id=8413473485094717501
 Entering to: https://www.iquantile.com/
 Home Page URL: https://www.iquantile.com/home
 Home Page is verified !
@@ -109,20 +160,12 @@ About Page is verified !
 Contact Page URL: https://www.iquantile.com/index.php#contactz
 Contact Page is verified !
 Mandatory field(s) error message: 
-PLEASE FILL OUT THIS FIELD.
-PLEASE FILL OUT THIS FIELD.
-PLEASE FILL OUT THIS FIELD.
+This is a required field
+This is a required field
+This is a required field
 Submit button error message: 
-ONE/MANY FIELD(S) ARE EMPTY OR INVALID!
+One/Many field(s) are empty or invalid!
 Career Page URL: https://www.iquantile.com/career
 Career page verified !
-Closing .......
-[Parent 13444, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 1432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 1432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 9296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 9296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build[Parent 13444, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
-[GPU 11280, Chrome_ChildThread] 
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
+edge is Closing....
+[10:53:53.092] - Stopping server.

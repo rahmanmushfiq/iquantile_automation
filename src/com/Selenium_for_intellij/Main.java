@@ -39,9 +39,9 @@ public class Main {
     }
 
     public static void setBrowser() {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Which browser do you want to use ? ");
-        browser = sc.nextLine();
+        browser = input.nextLine();
     }
 
     public static boolean setBrowserConfig() {
@@ -68,8 +68,12 @@ public class Main {
      * quit the browser and clear the session
      */
     public static void tearDown() {
-
-        System.out.println("Closing .......");
-        driver.quit();
+        System.out.println(browser + " is Closing....");
+        if (browser.equalsIgnoreCase("Firefox")) {
+            driver.quit();
+        } else {
+            driver.close();
+            driver.quit();
+        }
     }
 }

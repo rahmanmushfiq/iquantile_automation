@@ -12,6 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 class BrokenLinks {
     private static WebDriver driver;
+    static WebElement element;
 
     public BrokenLinks(WebDriver driver) {
         this.driver = driver;
@@ -65,6 +66,7 @@ class BrokenLinks {
         for (WebElement element : allImages) {
             try {
                 System.out.println("URL: " + element.getAttribute("href") + " -> returned " + isLinkBroken(new URL(element.getAttribute("href"))));
+
             } catch (Exception e) {
                 System.out.println("At " + element.getAttribute("innerHTML") + " Exception occured -&gt; " + e.getMessage());
             }
