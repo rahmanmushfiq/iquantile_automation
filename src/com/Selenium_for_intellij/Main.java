@@ -10,9 +10,13 @@ import java.util.Scanner;
 public class Main {
     static WebDriver driver;
     static String browser;
-    static final String chromeDriver = "E:\\Workspace\\Selenium Test\\drivers\\chromedriver.exe";
-    static final String firefoxDriver = "E:\\Workspace\\Selenium Test\\drivers\\geckodriver.exe";
-    static final String edgeDriver = "E:\\Workspace\\Selenium Test\\drivers\\MicrosoftWebDriver.exe";
+    static String projectPath = System.getProperty("user.dir");
+    static String chromeDriverPath = projectPath + "\\drivers\\chromedriver.exe";
+    static String geckoDriverPath = projectPath + "\\drivers\\geckodriver.exe";
+    static String edgeDriverPath = projectPath + "\\drivers\\MicrosoftWebDriver.exe";
+//    static final String chromeDriver = "G:\\CS Works\\Selenium Projects\\iquantile_automation\\drivers\\chromedriver.exe";
+//    static final String firefoxDriver = "G:\\CS Works\\Selenium Projects\\iquantile_automation\\drivers\\geckodriver.exe";
+//    static final String edgeDriver = "G:\\CS Works\\Selenium Projects\\iquantile_automation\\drivers\\MicrosoftWebDriver.exe";
 
     public static void main(String[] args) {
 
@@ -34,7 +38,6 @@ public class Main {
         new iQuantileAbout(driver).navigateToAbout();
         new iQuantileContact(driver).navigateToContactPage();
         new iQuantileCareer(driver).navigateToCareerPage();
-
         tearDown();
     }
 
@@ -47,16 +50,16 @@ public class Main {
     public static boolean setBrowserConfig() {
 
         if (browser.equalsIgnoreCase("Chrome")) {
-            System.setProperty("webdriver.chrome.driver", chromeDriver);
+            System.setProperty("webdriver.chrome.driver", chromeDriverPath);
             driver = new ChromeDriver();
             return true;
         } else if (browser.equalsIgnoreCase("Edge")) {
-            System.setProperty("webdriver.edge.driver", edgeDriver);
+            System.setProperty("webdriver.edge.driver", edgeDriverPath);
             driver = new EdgeDriver();
             return true;
         } else if (browser.equalsIgnoreCase("Firefox")) {
 
-            System.setProperty("webdriver.gecko.driver", firefoxDriver);
+            System.setProperty("webdriver.gecko.driver", geckoDriverPath);
             driver = new FirefoxDriver();
             return true;
         }

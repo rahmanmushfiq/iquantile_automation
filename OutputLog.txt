@@ -1,6 +1,6 @@
 Which browser do you want to use ? 
-[10:53:15.782] - Listening on http://localhost:6622/ 
-Jul 14, 2018 10:53:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[19:56:37.198] - Listening on http://localhost:45301/ 
+Jul 15, 2018 7:56:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Total Links Found: 131
 URL: https://www.iquantile.com/home -> returned OK
@@ -135,19 +135,18 @@ URL: https://www.iquantile.com/img/team/2018032290109.jpg -> returned OK
 URL: https://www.iquantile.com/img/team/2017070629105.jpg -> returned OK
 URL: https://www.iquantile.com/img/team/2018051611540.jpg -> returned OK
 Google Title Matched! 
-Total 12 search results are: 
+Total 11 search results are: 
 https://www.iquantile.com/
 http://www.iquantile.com/products
-https://www.iquantile.com/terms
 https://www.iquantile.com/career
-https://www.iquantile.com/page.php?id=105
 https://www.linkedin.com/company/iquantile
 https://www.facebook.com/iQuantile/
-https://www.facebook.com/pages/Iquantile/930864110336875
 https://www.crunchbase.com/organization/iquantile
-https://twitter.com/iquantile?lang=bn
-https://www.google.com/search?q=iquantile&sa=G&tbm=isch&tbo=u&source=univ&ved=0ahUKEwiog_aO5p3cAhVNXSsKHTuaAn0QsAQIVQ
+https://twitter.com/iquantile?lang=en
 https://play.google.com/store/apps/dev?id=8413473485094717501
+https://www.google.com/search?q=iquantile&sa=G&tbm=isch&tbo=u&source=univ&ved=0ahUKEwjAp8O4oaHcAhUlSo8KHZYFCnEQsAQISw
+https://www.f6s.com/iquantile
+https://www.stata.com/statalist/archive/2009-01/msg00728.html
 Entering to: https://www.iquantile.com/
 Home Page URL: https://www.iquantile.com/home
 Home Page is verified !
@@ -168,4 +167,4 @@ One/Many field(s) are empty or invalid!
 Career Page URL: https://www.iquantile.com/career
 Career page verified !
 edge is Closing....
-[10:53:53.092] - Stopping server.
+[19:57:26.444] - Stopping server.

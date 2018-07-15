@@ -12,7 +12,6 @@ import java.util.concurrent.TimeUnit;
 
 class BrokenLinks {
     private static WebDriver driver;
-    static WebElement element;
 
     public BrokenLinks(WebDriver driver) {
         this.driver = driver;
