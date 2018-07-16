@@ -1,6 +1,6 @@
 Which browser do you want to use ? 
-[19:56:37.198] - Listening on http://localhost:45301/ 
-Jul 15, 2018 7:56:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[10:00:50.465] - Listening on http://localhost:44081/ 
+Jul 16, 2018 10:00:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Total Links Found: 131
 URL: https://www.iquantile.com/home -> returned OK
@@ -140,12 +140,12 @@ https://www.iquantile.com/
 http://www.iquantile.com/products
 https://www.iquantile.com/career
 https://www.linkedin.com/company/iquantile
+https://www.facebook.com/pages/Iquantile/930864110336875
 https://www.facebook.com/iQuantile/
 https://www.crunchbase.com/organization/iquantile
-https://twitter.com/iquantile?lang=en
+https://twitter.com/iquantile?lang=bn
+https://www.google.com/search?q=iquantile&sa=G&tbm=isch&tbo=u&source=univ&ved=0ahUKEwjt99yd3qLcAhVabysKHYgCDuAQsAQIUQ
 https://play.google.com/store/apps/dev?id=8413473485094717501
-https://www.google.com/search?q=iquantile&sa=G&tbm=isch&tbo=u&source=univ&ved=0ahUKEwjAp8O4oaHcAhUlSo8KHZYFCnEQsAQISw
-https://www.f6s.com/iquantile
 https://www.stata.com/statalist/archive/2009-01/msg00728.html
 Entering to: https://www.iquantile.com/
 Home Page URL: https://www.iquantile.com/home
@@ -167,4 +167,4 @@ One/Many field(s) are empty or invalid!
 Career Page URL: https://www.iquantile.com/career
 Career page verified !
 edge is Closing....
-[19:57:26.444] - Stopping server.
+[10:01:51.677] - Stopping server.

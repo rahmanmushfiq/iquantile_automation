@@ -14,9 +14,6 @@ public class Main {
     static String chromeDriverPath = projectPath + "\\drivers\\chromedriver.exe";
     static String geckoDriverPath = projectPath + "\\drivers\\geckodriver.exe";
     static String edgeDriverPath = projectPath + "\\drivers\\MicrosoftWebDriver.exe";
-//    static final String chromeDriver = "G:\\CS Works\\Selenium Projects\\iquantile_automation\\drivers\\chromedriver.exe";
-//    static final String firefoxDriver = "G:\\CS Works\\Selenium Projects\\iquantile_automation\\drivers\\geckodriver.exe";
-//    static final String edgeDriver = "G:\\CS Works\\Selenium Projects\\iquantile_automation\\drivers\\MicrosoftWebDriver.exe";
 
     public static void main(String[] args) {
 
